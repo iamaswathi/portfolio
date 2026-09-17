@@ -4,25 +4,32 @@ const focus = [ "JavaScript", "TypeScript", "Angular", "React", "Next.js",  ".Ne
 
 const featured = [
   {
-    slug: "live-market-dashboard",
-    title: "Live market dashboard",
+    slug: "expense-manager",
+    title: "Expense Manager",
     summary:
-      "A real-time table handling thousands of ticking price updates without dropping frames.",
-    stack: "Angular · Signals · WebSocket",
+      "A platform to view and track expenses across different banks and accounts.",
+    stack: "React · Signals",
   },
   {
-    slug: "teamsync",
-    title: "TeamSync",
+    slug: "kudukka",
+    title: "Kudukka",
     summary:
-      "A collaborative kanban board with live multi-user editing and optimistic updates.",
-    stack: "React · Redux Toolkit · Node",
+      "A react native app that lets users to save money for individual or group goals and avail loans.",
+    stack: "React NAtive",
   },
   {
-    slug: "recipe-finder",
-    title: "Recipe finder",
+    slug: "todo-app",
+    title: "Todo App",
     summary:
-      "A fully keyboard-navigable, screen-reader-tested search app — WCAG AA throughout.",
-    stack: "Next.js · Tailwind · axe-core",
+      "App to add and manage todo items.",
+    stack: ".Net . Angular . in-memory database",
+  },
+  {
+    slug: "agent-chat",
+    title: "AI Agent Chat UI",
+    summary:
+      "A chat interface for interacting with an AI agent.",
+    stack: "Angular . Ngrx state management . RxJs",
   },
 ];
 
