@@ -10,8 +10,8 @@ const links = [
 ];
 export default function Nav() {
   return (
-    <header className="border-b border-line">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6">
+    <header className="sticky top-0 z-50 border-b border-line bg-background">
+      <nav className="mx-auto flex max-w-5xl flex-col items-start gap-2 px-6 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:py-6">
         <Link
           href="/"
           className="flex items-center gap-2 font-mono text-sm text-paper no-underline hover:text-brass"
@@ -23,9 +23,9 @@ export default function Nav() {
             height={30}
             className="h-15 w-15 rounded-full object-cover"
           />
-          Aswathi Prakash
+          <span>Aswathi Prakash</span>
         </Link>
-        <ul className="flex gap-6">
+        <ul className="flex flex-wrap gap-x-6 gap-y-2">
           {links.map((link) => (
             <li key={link.href}>
               <Link
